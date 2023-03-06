@@ -10,16 +10,21 @@
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
-    display: flex;
+    
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 400px;
 
 }
 .navbar nav{
     flex: 1;
     padding-left: 60px;
+}
+.navbar img{
+    width: 15rem;
 }
 .navbar nav ul li{
     display: inline-block;
@@ -39,4 +44,126 @@
     text-decoration: none;
     color: white;
     
+}
+.content h1{
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+
+}
+.content p{
+    font-size: 20px;
+    color: #14151b;
+    text-decoration: solid;
+
+}
+.content .btn-1{
+    display: inline-block;
+    background: rgb(41, 41, 226);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+.feature-img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
+.line h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #0d0e14;
+    text-align: center;
+
+}
+.line p{
+    font-size: 20px;
+    color: #14151b;
+    text-decoration: solid;
+    text-align: center;
+}
+.icon{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.btn-2{
+    display: inline-block;
+    background: rgb(41, 41, 226);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+.main h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #121214;
+    text-align: center;
+
+
+}
+.main h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #d868ad;
+    text-align: center;
+
+}
+   
+.main p{
+    font-size: 20px;
+    color: #2f3035;
+    text-decoration: solid;
+    text-align: center;
+}
+.main .btn-3{
+    text-align: center;
+    background: rgb(41, 41, 226);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+.demo img{
+    width: 15rem;
+  
+}
+
+.demo h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #0e0c0d;
+    text-align: center;
+
+}
+.demo nav{
+    flex: 1;
+    padding-left: 60px;
+}
+.demo nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.demo nav ul li a{
+    text-decoration: none;
+    color: #333;
 }
