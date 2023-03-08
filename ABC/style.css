@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+    font-family: "Sora";
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+
+}
+.navbar img{
+    width: 15rem;
+    background-color: white;
+
+}
+.navbar .nav_menu{
+    display: flex;
+    gap: 2rem;
+    background-color: white;
+}
+.btn{
+    background-color: green !important; 
+    color: white;
+    border-radius: 5px;
+
+}
+.nav_menu div{
+    padding: 10px 20px;
+    background-color: white;
+}
+.green{
+    color: #019b4d;
+}
+.blue{
+    color: #2681f4;
+}
+.heading{
+    font-size: 6rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+.yellow{
+    color:  #f7b401;
+}
+.red{
+    color: #f62b24;
+}
+.img_div{
+    background-color: white;
+}
+.btn_1{
+   padding: 10px 20px;
+   background-color: #2681f4; 
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.button_div{
+    margin-top: 15px;
+    margin-left: 5rem;
+}
+.gen_info{
+    margin-left: 5rem;
+    color: rgb(88, 86, 86);
+}
+.hero_sec{
+    display: flex;
+}
+.hero_img img{
+    width: 35rem ;
+}
+.hero_img {
+    margin-right: 5rem;
+}
+.para{
+    margin-bottom: 10px;
+}
