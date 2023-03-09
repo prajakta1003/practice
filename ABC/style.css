@@ -317,3 +317,81 @@
     background-color: green;
     color: white;
 }
+.upcoming{
+    color: #333;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px 10px;
+    text-align: center;
+}
+.new_line{
+    height: 3px;
+    width: 60px;
+    background-color: #ce1b1b;
+   margin-bottom: 30px;
+   
+}
+.event{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 5rem;
+}
+.event_1{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.img_1 img{
+    width: 35rem;
+    
+}
+.para_1 p{
+    color: #333;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+    text-align: left;
+}
+.line_3{
+    background: #b4a9a9;
+    height: 1px;
+    margin-top: 40px;
+    width: 100%;
+}
+.btn_5{
+    padding: 10px 20px;
+    background-color: green; 
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+
+}
+.para_2 p{
+    color: #333;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+    text-align: left;
+}
+.orientation{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.para_3{
+    color: #333;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+    text-align: left;
+}
+.schedule{
+    margin-top: 15px;
+}
+p .android {
+    font-size: 40px;
+}
