@@ -426,6 +426,7 @@ h4{
 .last_contact{
     display: flex;
     margin-left: 150px;
+    margin-bottom: 50px;
 }
 .name{
     color: rgb(175, 175, 182);
@@ -437,4 +438,23 @@ h4{
     height: 50px;
     width: 100%;
     margin: 12px 0px;
+}
+.placeholder input{
+    padding: 10px;
+    width: 500px;
+}
+.placeholder textarea{
+    padding: 20px;
+    width: 500px;
+}
+.main{
+    margin-left: 90px;
+}
+.line_1{
+    height: 3px;
+    width: 100px;
+   
+    background-color: #0fbe35;
+   margin-bottom: 30px;
+    
 }
